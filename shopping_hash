@@ -1,0 +1,10 @@
+shopping_hash = {"apple"=>1, "banana"=>2, "carrot"=>3}
+puts shopping_hash
+
+# Food: apple, Price: 1 
+# Food: banana, Price: 2 
+# Food: carrot, Price: 3 
+
+shopping_hash.each do |food, price|
+  puts " #{food}, #{price}"
+end 
